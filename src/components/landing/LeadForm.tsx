@@ -74,7 +74,7 @@ export function LeadForm() {
   return (
     <div className="w-full max-w-xl mx-auto min-h-[646px]">
       <iframe
-        src="https://api.leadconnectorhq.com/widget/form/068Tat3aDkIti56tSHoO"
+        src="https://api.leadconnectorhq.com/widget/form/068Tat3aDkIti56tSHoO?source=Landing+Page+1&utm_source=Landing+Page+1"
         style={{
           width: "100%",
           height: "100%",
@@ -158,8 +158,8 @@ export function CustomLeadForm() {
       locationId: "F5UyRGb9N62uJFgPLaxw",
       formName: "Joseph | Free Evaluation",
       submittedAt: new Date().toISOString(),
-      source: "Sell to Buy Free Evaluation Landing Page",
-      landingPageSource: "VSL 2",
+      source: "Landing Page 1",
+      landingPageSource: "Landing Page 1",
     };
 
     try {

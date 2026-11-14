@@ -19,7 +19,7 @@ export async function appendP2Lead(lead: EvaluationLead) {
       phoneNumber: lead.phone,
       propertyAddress: lead.address,
       whatTheyAreLookingFor: lead.needs ?? "",
-      landingPageSource: "VSL 2",
+      landingPageSource: lead.landingPageSource ?? "Landing Page 1",
       webhookSecret: secret,
     }),
     redirect: "follow",
